@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "poepoe"
+version = "0.0.0"
+description = "0x00"
+authors = ["Your Name <you@example.com>"]
+license = "BAH"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+selenium = "^4.10.0"
+ipython = "^8.14.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
